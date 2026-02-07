@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables (IMPORTANT - contains secrets)
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test_yolo.py
+soccer-image.png
+test_images/
+
+# YOLO model weights (will be downloaded automatically)
+*.pt
+*.weights
+
+# Logs
+*.log
+
+# Data directories
+data/
+uploads/
+```
+
